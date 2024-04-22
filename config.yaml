@@ -37,3 +37,9 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+    
+  - id: zen-zeabur-app
+    name: ZEN
+    url: 'zen.zeabur.app'
+    method: PING
+    expectStatus: 200
